@@ -91,7 +91,7 @@ public class TV {
 	}
 	
 	public void canalDown () {
-		if (this.getEstado() == true && this.getCanal() > 0) {
+		if (this.getEstado() == true && this.getCanal() > 1) {
 			this.canal--;
 			
 		}
