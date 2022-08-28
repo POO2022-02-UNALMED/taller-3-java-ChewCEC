@@ -66,6 +66,10 @@ public class TV {
 		
 	}
 	
+	 public static void setNumTV(int numTV) {
+	        TV.numTV = numTV;
+	    } 
+	
 	public void turnOn() {
 		this.estado = true;
 	}
